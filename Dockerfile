@@ -1,4 +1,4 @@
-FROM oven/bun:alpine AS base
+FROM oven/bun AS base
 WORKDIR /usr/src/app
 
 # copy index.ts
